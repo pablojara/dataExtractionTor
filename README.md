@@ -12,5 +12,5 @@ To make it work (Ubuntu 12.04 and above) the user should follow the next instruc
 4. The crawler will extract pages until it has no more links to follow or the user press CTRL+D.
 5. The extracted data is stored in \tmp folder on your system.
 6. That file is the input for the graph analyzer, download the folder from the repository and store the extracted data file in that folder. 
-7. Execute the createGraph.py script. It will generate a .gexf file that will be the input for the rest of the scripts od that folder.
+7. Execute the createGraph.py script. It will generate a .gexf file that will be the input for the rest of the scripts of that folder.
 8. Execute the desired script, each one apply an algorithm to the extracted graph.
